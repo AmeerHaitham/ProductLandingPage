@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="icecream.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="Icon.png">
+    <title>Icy Bites</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="IcyBites.png" alt="IcyBites logo">
+           <!-- Icy Bites-->
+        </div>
+
+        <ul class="menu-list">
+            <li>Home</li>
+            <li class="active">Products</li>
+            <li>About Us</li>
+            <li>Contacts</li>
+
+        </ul>
+    </header>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Are you ready to taste the best <strong>ice-cream</strong></p>
+            <p class="msg">The love for ice cream is very high. <strong>Icy Bites</strong> made with choosen ingredients that will bring a warm environment to everyone</p>
+            <button class="cta"><span>Order now</span> <i class="fas fa-angle-right"></i></button>
+        </section>
+
+        <section class="righ">
+            <h1 class="h1"><strong>Flavors</strong></h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="Vanilla.png" alt=""></div>
+                  <div class="swiper-slide"><img src="Chocolate.png" alt=""></div>
+                  <div class="swiper-slide"><img src="Strawbery.png" alt=""></div>
+                  <div class="swiper-slide"><img src="Pistachio.png" alt=""></div>
+                  <div class="swiper-slide"><img src="SaltedCaramel.png" alt=""></div>
+                  <div class="swiper-slide"><img src="Coffee.png" alt=""></div>
+                  <div class="swiper-slide"><img src="CottenCandy.png" alt=""></div>
+                  <div class="swiper-slide"><img src="ChocoMint.png" alt=""></div>
+                  <div class="swiper-slide"><img src="CakeBatter.png" alt=""></div>
+                </div>
+            
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                  slidesPerView: 1,
+                  spaceBetween: 30,
+                  loop: true,
+                });
+              </script>
+        </section>
+        <div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+    </section>
+</body>
+
+</html>
